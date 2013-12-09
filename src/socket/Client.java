@@ -13,7 +13,7 @@ import java.net.UnknownHostException;
 
 public class Client {
     
-    public static void main(String[] zero) {
+    public void createClient() {
         
         
         Socket socket;
@@ -30,7 +30,7 @@ public class Client {
             w.flush();            
             
             System.out.println("Envoie de la valeur ...");
-            System.out.println("Attente de la réponse ...");
+            System.out.println("Attente de la reponse ...");
             
             in = new BufferedReader (new InputStreamReader (socket.getInputStream()));
             String message_distant = in.readLine();

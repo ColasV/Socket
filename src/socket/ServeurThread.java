@@ -4,6 +4,14 @@ import java.io.*;
 import java.net.*;
 //import java.util.*;
 
+/**
+ * Classe ServeurThread qui s'occupe de communiquer avec un client
+ * 
+ * @author Nicolas Vignes
+ *
+ */
+
+
 public class ServeurThread implements Runnable {
 
     Socket ns;
